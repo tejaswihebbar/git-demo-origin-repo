@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" verbose="1">
+ <test name="TestCase1" >
+    <classes>
+      <class name="testsuite.Invalid_Login_when_user_enters_username_which_does_not_exist"/>
+    </classes>
+ </test>
+ <test name="TestCase2" >
+    <classes>
+      <class name="testsuite.Adminstritation"/>
+    </classes>
+ </test>
+ <test name="TestCase3" >
+    <classes>
+      <class name="testsuite.Activity_Diagram__Activity_Diagram____Activity__Valid_Register____Action__2"/>
+    </classes>
+ </test>
+ <test name="TestCase4" >
+    <classes>
+      <class name="testsuite.Activity_Diagram__Activity_Diagram____Activity__Invalid_Register____Action__2"/>
+    </classes>
+ </test>
+ <test name="TestCase5" >
+    <classes>
+      <class name="testsuite.Activity_Diagram__Activity_Diagram____Activity__username_exist____Action__2"/>
+    </classes>
+ </test>
+ <test name="TestCase6" >
+    <classes>
+      <class name="testsuite.Reject_non_matching_password"/>
+    </classes>
+ </test>
+ <test name="TestCase7" >
+    <classes>
+      <class name="testsuite.Forgot_Password"/>
+    </classes>
+ </test>
+ <test name="TestCase8" >
+    <classes>
+      <class name="testsuite.Accounts_Overview"/>
+    </classes>
+ </test>
+ <test name="TestCase9" >
+    <classes>
+      <class name="testsuite.All_Fileds_are_required_and_should_not_be_empty"/>
+    </classes>
+ </test>
+ <test name="TestCase10" >
+    <classes>
+      <class name="testsuite.Bill_Pay_Amount_should_be_less_than_the_account_balance"/>
+    </classes>
+ </test>
+ <test name="TestCase11" >
+    <classes>
+      <class name="testsuite.Bill_Payment_Successfull_and_amount_debit_from_account_balance"/>
+    </classes>
+ </test>
+ <test name="TestCase12" >
+    <classes>
+      <class name="testsuite.Account_number_and_Verify_Account_number_should_match"/>
+    </classes>
+ </test>
+ <test name="TestCase13" >
+    <classes>
+      <class name="testsuite.Activity_Diagram__Activity_Diagram____Activity__Successfull_Transfer____Action__13"/>
+    </classes>
+ </test>
+ <test name="TestCase14" >
+    <classes>
+      <class name="testsuite.From_date_and_To_date_are_required"/>
+    </classes>
+ </test>
+ <test name="TestCase15" >
+    <classes>
+      <class name="testsuite.Transaction_ID_is_required"/>
+    </classes>
+ </test>
+ <test name="TestCase16" >
+    <classes>
+      <class name="testsuite.Date_is_required"/>
+    </classes>
+ </test>
+ <test name="TestCase17" >
+    <classes>
+      <class name="testsuite.Amount_is_Required"/>
+    </classes>
+ </test>
+ <test name="TestCase18" >
+    <classes>
+      <class name="testsuite.Activity_Diagram__Activity_Diagram____Activity__Update_Contact____Action__2"/>
+    </classes>
+ </test>
+ <test name="TestCase19" >
+    <classes>
+      <class name="testsuite.Node_Activity__Request_Loan_"/>
+    </classes>
+ </test>
+ <test name="TestCase20" >
+    <classes>
+      <class name="testsuite.Find_Transaction_by_Date_Range"/>
+    </classes>
+ </test>
+ <test name="TestCase21" >
+    <classes>
+      <class name="testsuite.Find_Transaction_by_ID"/>
+    </classes>
+ </test>
+ <test name="TestCase22" >
+    <classes>
+      <class name="testsuite.Find_Transaction_by_Date"/>
+    </classes>
+ </test>
+ <test name="TestCase23" >
+    <classes>
+      <class name="testsuite.Find_Transaction_by_Amount"/>
+    </classes>
+ </test>
+ <test name="TestCase24" >
+    <classes>
+      <class name="testsuite.Open_New_Account_and_Requesting_Loan"/>
+    </classes>
+ </test>
+</suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.conformiq:RequirementRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.conformiq="http://www.conformiq.com/EMF/2/Requirements" lastUpdate="1628234927816">
+  <requirementGraphRoots identifier="com.conformiq.requirements.excel-E:/Conformiq Workspace/Workspace 4.3.1/Requirements Input.xls-root" source="//@requirementProviders.0">
+    <name value="Excel Requirements (Requirements Input.xls)"/>
+    <priority/>
+    <subrequirements identifier="com.conformiq.requirements.excel-E:/Conformiq Workspace/Workspace 4.3.1/Requirements Input.xls-req-1" source="//@requirementProviders.0" externalIdentifier="1">
+      <name value="Error - Login"/>
+      <priority/>
+      <fields key="Req Group">
+        <value value="Error Scenario"/>
+      </fields>
+      <fields key="Req Level">
+        <value value="2"/>
+      </fields>
+    </subrequirements>
+    <subrequirements identifier="com.conformiq.requirements.excel-E:/Conformiq Workspace/Workspace 4.3.1/Requirements Input.xls-req-2" source="//@requirementProviders.0" externalIdentifier="2">
+      <name value="Login Success"/>
+      <priority/>
+      <fields key="Req Group">
+        <value value="Base Flow"/>
+      </fields>
+      <fields key="Req Level">
+        <value value="1"/>
+      </fields>
+    </subrequirements>
+  </requirementGraphRoots>
+  <requirementProviders identifier="com.conformiq.requirements.excel" name="Excel Requirements (Requirements Input.xls)">
+    <properties key="fileName" value="E:/Conformiq Workspace/Workspace 4.3.1/Requirements Input.xls"/>
+  </requirementProviders>
+</com.conformiq:RequirementRepository>

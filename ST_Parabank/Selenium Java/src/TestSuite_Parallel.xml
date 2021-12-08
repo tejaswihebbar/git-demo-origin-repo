@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel TestSuite" parallel="methods" thread-count="2">
+ <test name="Parallel TestCase" >
+    <classes>
+      <class name="testsuite.Invalid_Login_when_user_enters_username_which_does_not_exist"/>
+      <class name="testsuite.Adminstritation"/>
+      <class name="testsuite.Activity_Diagram__Activity_Diagram____Activity__Valid_Register____Action__2"/>
+      <class name="testsuite.Activity_Diagram__Activity_Diagram____Activity__Invalid_Register____Action__2"/>
+      <class name="testsuite.Activity_Diagram__Activity_Diagram____Activity__username_exist____Action__2"/>
+      <class name="testsuite.Reject_non_matching_password"/>
+      <class name="testsuite.Forgot_Password"/>
+      <class name="testsuite.Accounts_Overview"/>
+      <class name="testsuite.All_Fileds_are_required_and_should_not_be_empty"/>
+      <class name="testsuite.Bill_Pay_Amount_should_be_less_than_the_account_balance"/>
+      <class name="testsuite.Bill_Payment_Successfull_and_amount_debit_from_account_balance"/>
+      <class name="testsuite.Account_number_and_Verify_Account_number_should_match"/>
+      <class name="testsuite.Activity_Diagram__Activity_Diagram____Activity__Successfull_Transfer____Action__13"/>
+      <class name="testsuite.From_date_and_To_date_are_required"/>
+      <class name="testsuite.Transaction_ID_is_required"/>
+      <class name="testsuite.Date_is_required"/>
+      <class name="testsuite.Amount_is_Required"/>
+      <class name="testsuite.Activity_Diagram__Activity_Diagram____Activity__Update_Contact____Action__2"/>
+      <class name="testsuite.Node_Activity__Request_Loan_"/>
+      <class name="testsuite.Find_Transaction_by_Date_Range"/>
+      <class name="testsuite.Find_Transaction_by_ID"/>
+      <class name="testsuite.Find_Transaction_by_Date"/>
+      <class name="testsuite.Find_Transaction_by_Amount"/>
+      <class name="testsuite.Open_New_Account_and_Requesting_Loan"/>
+    </classes>
+ </test>
+</suite>
