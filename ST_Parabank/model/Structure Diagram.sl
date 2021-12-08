@@ -22,6 +22,12 @@ creator.gui.screen qml3f30189df46d42ca930c9eef5c157c66 "Parabank Welcome"
 			type = String
 			status = dontcare
 			deleted;
+		creator.gui.textbox qml3a96ccb6ca1948bcafe779cf8d3799fd "Field 2"
+			annotations = [ "selenium:xpath" =
+		"//*[@id=\"loginPanel\"]/form/div[2]/input";
+		]
+			type = String
+			status = dontcare;
 	}
 	creator.gui.hyperlink qmlca11c27f6f3e4ce6a0eaea96a8ee7100 "Admin Page"
 		status = dontcare;
