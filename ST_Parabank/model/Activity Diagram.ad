@@ -68,21 +68,6 @@
           <clause xmi:type="ad:FunctionCallClause" xmi:id="_yx8-8PBOEeu4_M3pPY1jcQ" methodRef="qml3f30189df46d42ca930c9eef5c157c66_Create_Default_Initialized"/>
         </inputArgs>
       </actionInvocations>
-      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_dfHZUFgeEeyOcqfFsg6w1Q" methodRef="qmld9b7f1e8c91244b5a25f1a03606d3450_Custom_Input_qml35ebfa258cab43ffadcecca0f7ddc4a4">
-        <inputArgs xmi:type="ad:Expression" xmi:id="_dfHZUVgeEeyOcqfFsg6w1Q">
-          <clause xmi:type="ad:StringLiteralClause" xmi:id="_dfHZUlgeEeyOcqfFsg6w1Q" value="Enter URL"/>
-        </inputArgs>
-        <inputArgs xmi:type="ad:Expression" xmi:id="_dfHZU1geEeyOcqfFsg6w1Q">
-          <clause xmi:type="ad:InlineValueClause" xmi:id="_dfHZVFgeEeyOcqfFsg6w1Q" qmlId="qmla8948b38294d4a3cb7e5880d431a7157">
-            <fields xmi:type="ad:ValueField" xmi:id="_dfHZVVgeEeyOcqfFsg6w1Q" fieldRef="qml2e0d4a6c4e074844972268aa998fb079">
-              <possibleValues xmi:type="ad:Expression" xmi:id="_dfHZVlgeEeyOcqfFsg6w1Q">
-                <clause xmi:type="ad:StringLiteralClause" xmi:id="_dfHZV1geEeyOcqfFsg6w1Q" value="Enter URL as http://parabank2.parasoft.com/parabank/index.htm"/>
-              </possibleValues>
-            </fields>
-            <type xmi:type="ad:CustomTypeRef" xmi:id="_dfHZWFgeEeyOcqfFsg6w1Q" idRef="qmld9b7f1e8c91244b5a25f1a03606d3450"/>
-          </clause>
-        </inputArgs>
-      </actionInvocations>
     </nodes>
     <nodes xmi:type="ad:EventNode" xmi:id="_NfcBQIOpEeWaMp3LzUsxUQ" name="Event Node 1" controlFlowsIn="_OQxXkIOpEeWaMp3LzUsxUQ" controlFlowsOut="_PTIzgIOpEeWaMp3LzUsxUQ _PxBpYIOpEeWaMp3LzUsxUQ _fBEaEIOrEeWaMp3LzUsxUQ _vwzN4IRHEeW-udd9UKa5JQ"/>
     <nodes xmi:type="ad:ActivityNode" xmi:id="_OrWawIOpEeWaMp3LzUsxUQ" name="REGISTER" controlFlowsIn="_PTIzgIOpEeWaMp3LzUsxUQ" controlFlowsOut="_lbp-AIRSEeW-udd9UKa5JQ">
@@ -112,6 +97,11 @@
             <fields xmi:type="ad:ValueField" xmi:id="__sEhRA_lEey1jtEFluT6vA" fieldRef="qml2f4c34a4aa024414a9bf32a2c59cb93d">
               <possibleValues xmi:type="ad:Expression" xmi:id="__sEhRQ_lEey1jtEFluT6vA">
                 <clause xmi:type="ad:StringLiteralClause" xmi:id="_C6b0sBxdEeyVvpWIDBFT3w" value="valid Username"/>
+              </possibleValues>
+            </fields>
+            <fields xmi:type="ad:ValueField" xmi:id="_i0bWMLZaEeyLZaQyuYt3Sw" fieldRef="qml3a96ccb6ca1948bcafe779cf8d3799fd">
+              <possibleValues xmi:type="ad:Expression" xmi:id="_i0bWMbZaEeyLZaQyuYt3Sw">
+                <clause xmi:type="ad:FunctionCallClause" xmi:id="_i0bWMrZaEeyLZaQyuYt3Sw" methodRef="String_Dont_Care_Value"/>
               </possibleValues>
             </fields>
             <type xmi:type="ad:CustomTypeRef" xmi:id="__sEhRw_lEey1jtEFluT6vA" idRef="qmlad381e3b2e3a40e9a0dad0914377926f"/>
@@ -239,8 +229,9 @@
     </nodes>
     <nodes xmi:type="ad:VariableDataObject" xmi:id="_L5ddwIOwEeWaMp3LzUsxUQ" name="login" qmlId="qmlafd0930624cb473d9de67ce0dd55fa2f">
       <type xmi:type="ad:CustomTypeRef" xmi:id="_L5ddwYOwEeWaMp3LzUsxUQ" idRef="qmlad381e3b2e3a40e9a0dad0914377926f"/>
-      <fields xmi:type="ad:VariableField" xmi:id="_L5ddwoOwEeWaMp3LzUsxUQ" fieldRef="qml2f4c34a4aa024414a9bf32a2c59cb93d"/>
       <fields xmi:type="ad:VariableField" xmi:id="_L5ddw4OwEeWaMp3LzUsxUQ" fieldRef="qmla0728d6ad2b34b23a8d394b1ac850d49"/>
+      <fields xmi:type="ad:VariableField" xmi:id="_L5ddwoOwEeWaMp3LzUsxUQ" fieldRef="qml2f4c34a4aa024414a9bf32a2c59cb93d"/>
+      <fields xmi:type="ad:VariableField" xmi:id="_i0qmwLZaEeyLZaQyuYt3Sw" fieldRef="qml3a96ccb6ca1948bcafe779cf8d3799fd"/>
     </nodes>
     <nodes xmi:type="ad:DecisionNode" xmi:id="_QillAIOwEeWaMp3LzUsxUQ" name="Verify Login" controlFlowsIn="_a_YUAIOwEeWaMp3LzUsxUQ" caseControlFlowsOut="_KqkQUMB8EeeJkO-JQ6OnMw" elseControlFlowOut="_KqkQVsB8EeeJkO-JQ6OnMw">
       <condition xmi:type="ad:Expression" xmi:id="_QiqdgIOwEeWaMp3LzUsxUQ">
@@ -250,14 +241,19 @@
           </inputArgs>
           <inputArgs xmi:type="ad:Expression" xmi:id="_Qiqdg4OwEeWaMp3LzUsxUQ">
             <clause xmi:type="ad:InlineValueClause" xmi:id="_VcONcIOwEeWaMp3LzUsxUQ" qmlId="qml6ef9212e1abb4c8986d77ad94f47ead1">
+              <fields xmi:type="ad:ValueField" xmi:id="_VcONdIOwEeWaMp3LzUsxUQ" fieldRef="qmla0728d6ad2b34b23a8d394b1ac850d49">
+                <possibleValues xmi:type="ad:Expression" xmi:id="_VcONdYOwEeWaMp3LzUsxUQ">
+                  <clause xmi:type="ad:StringLiteralClause" xmi:id="_ZnAL0IOwEeWaMp3LzUsxUQ" value="valid Password"/>
+                </possibleValues>
+              </fields>
               <fields xmi:type="ad:ValueField" xmi:id="_VcONcYOwEeWaMp3LzUsxUQ" fieldRef="qml2f4c34a4aa024414a9bf32a2c59cb93d">
                 <possibleValues xmi:type="ad:Expression" xmi:id="_VcONcoOwEeWaMp3LzUsxUQ">
                   <clause xmi:type="ad:StringLiteralClause" xmi:id="_YNuEsIOwEeWaMp3LzUsxUQ" value="valid Username"/>
                 </possibleValues>
               </fields>
-              <fields xmi:type="ad:ValueField" xmi:id="_VcONdIOwEeWaMp3LzUsxUQ" fieldRef="qmla0728d6ad2b34b23a8d394b1ac850d49">
-                <possibleValues xmi:type="ad:Expression" xmi:id="_VcONdYOwEeWaMp3LzUsxUQ">
-                  <clause xmi:type="ad:StringLiteralClause" xmi:id="_ZnAL0IOwEeWaMp3LzUsxUQ" value="valid Password"/>
+              <fields xmi:type="ad:ValueField" xmi:id="_iz-qQLZaEeyLZaQyuYt3Sw" fieldRef="qml3a96ccb6ca1948bcafe779cf8d3799fd">
+                <possibleValues xmi:type="ad:Expression" xmi:id="_iz-qQbZaEeyLZaQyuYt3Sw">
+                  <clause xmi:type="ad:FunctionCallClause" xmi:id="_iz-qQrZaEeyLZaQyuYt3Sw" methodRef="String_Dont_Care_Value"/>
                 </possibleValues>
               </fields>
               <type xmi:type="ad:CustomTypeRef" xmi:id="_VcONd4OwEeWaMp3LzUsxUQ" idRef="qmlad381e3b2e3a40e9a0dad0914377926f"/>
@@ -3835,13 +3831,6 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_Fn_j4oOpEeWaMp3LzUsxUQ" fontName="Segoe UI"/>
           <styles xmi:type="notation:FillStyle" xmi:id="_Fn_j44OpEeWaMp3LzUsxUQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Fn_j5IOpEeWaMp3LzUsxUQ"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_dfkFQFgeEeyOcqfFsg6w1Q" type="3001" element="_dfHZUFgeEeyOcqfFsg6w1Q">
-          <children xmi:type="notation:DecorationNode" xmi:id="_dfkFRVgeEeyOcqfFsg6w1Q" type="5015"/>
-          <styles xmi:type="notation:DescriptionStyle" xmi:id="_dfkFQVgeEeyOcqfFsg6w1Q"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_dfkFQlgeEeyOcqfFsg6w1Q" fontName="Segoe UI"/>
-          <styles xmi:type="notation:FillStyle" xmi:id="_dfkFQ1geEeyOcqfFsg6w1Q"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dfkFRFgeEeyOcqfFsg6w1Q" x="1102" y="272" width="210" height="20"/>
         </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_YfMv4oOoEeWaMp3LzUsxUQ"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_YfMv44OoEeWaMp3LzUsxUQ"/>
