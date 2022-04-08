@@ -27,6 +27,9 @@ creator.gui.screen qml3f30189df46d42ca930c9eef5c157c66 "Parabank Welcome"
 		"//*[@id=\"loginPanel\"]/form/div[2]/input";
 		]
 			type = String
+			status = dontcare
+			deleted;
+		creator.gui.hyperlink qml39ecefbfed5e4e50a86d437833dc6be8 "Help"
 			status = dontcare;
 	}
 	creator.gui.hyperlink qmlca11c27f6f3e4ce6a0eaea96a8ee7100 "Admin Page"
