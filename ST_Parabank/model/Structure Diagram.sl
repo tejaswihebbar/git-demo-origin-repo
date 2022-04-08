@@ -30,6 +30,13 @@ creator.gui.screen qml3f30189df46d42ca930c9eef5c157c66 "Parabank Welcome"
 			status = dontcare
 			deleted;
 		creator.gui.hyperlink qml39ecefbfed5e4e50a86d437833dc6be8 "Help"
+			status = dontcare
+			deleted;
+		creator.gui.dropdown qml2cd484305520481b85d63f3ab8321684 "Field 2"
+			status = dontcare
+			deleted;
+		creator.gui.textbox qmla6bcc2d6d2ed44a7bf4b23870df71611 "Field 2"
+			type = String
 			status = dontcare;
 	}
 	creator.gui.hyperlink qmlca11c27f6f3e4ce6a0eaea96a8ee7100 "Admin Page"
