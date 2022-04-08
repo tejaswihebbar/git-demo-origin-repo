@@ -18,28 +18,11 @@ creator.gui.screen qml3f30189df46d42ca930c9eef5c157c66 "Parabank Welcome"
 		creator.gui.hyperlink qml742a5310240446b5bf851e601cf6ed9d
 		"Forgot login info?"
 			status = dontcare;
-		creator.gui.textbox qmlea015f8c6b7847adb8927e4cb9cbef7a "unnamed"
-			type = String
-			status = dontcare
-			deleted;
-		creator.gui.textbox qml3a96ccb6ca1948bcafe779cf8d3799fd "Field 2"
-			annotations = [ "selenium:xpath" =
-		"//*[@id=\"loginPanel\"]/form/div[2]/input";
-		]
-			type = String
-			status = dontcare
-			deleted;
-		creator.gui.hyperlink qml39ecefbfed5e4e50a86d437833dc6be8 "Help"
-			status = dontcare
-			deleted;
-		creator.gui.dropdown qml2cd484305520481b85d63f3ab8321684 "Field 2"
-			status = dontcare
-			deleted;
-		creator.gui.textbox qmla6bcc2d6d2ed44a7bf4b23870df71611 "Field 2"
-			type = String
-			status = dontcare
-			deleted;
 		creator.gui.hyperlink qml5ac6da4bc4984e4c8d548281a9a8617f "Help"
+			status = dontcare
+			deleted;
+		creator.gui.textbox qmlbfde446d48a947ca8c44e7001cf21bb3 "Field 2"
+			type = String
 			status = dontcare;
 	}
 	creator.gui.hyperlink qmlca11c27f6f3e4ce6a0eaea96a8ee7100 "Admin Page"
