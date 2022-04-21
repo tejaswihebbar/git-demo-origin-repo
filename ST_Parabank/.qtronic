@@ -105,6 +105,6 @@
   <projectProperties key="TestGenerationStopCondition" value="REPEATABLE_TEST_SET"/>
   <projectProperties key="TestSelection" value="FEWEST_TESTS"/>
   <requirementProviders xmi:id="_gveuIPaHEeuEraFll1cr6Q" identifier="com.conformiq.requirements.excel" name="Excel Requirements (Requirements Input.xls)">
-    <properties key="fileName" value="E:/Conformiq Workspace/Workspace 4.3.1/Requirements Input.xls"/>
+    <properties key="fileName" value="Requirements Input.xls"/>
   </requirementProviders>
 </com.conformiq:ConformiqProject>
