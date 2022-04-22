@@ -104,7 +104,7 @@
   <projectProperties key="TestGenTimeLimit" value="10"/>
   <projectProperties key="TestGenerationStopCondition" value="REPEATABLE_TEST_SET"/>
   <projectProperties key="TestSelection" value="FEWEST_TESTS"/>
-  <requirementProviders xmi:id="_gveuIPaHEeuEraFll1cr6Q" identifier="com.conformiq.requirements.excel" name="Excel Requirements (Requirements Input.xls)">
-    <properties key="fileName" value="Requirements Input.xls"/>
+  <requirementProviders xmi:id="_gveuIPaHEeuEraFll1cr6Q" identifier="com.conformiq.requirements.excel" name="Excel Requirements (Requirements Input.csv)">
+    <properties key="fileName" value="Requirements Input.csv"/>
   </requirementProviders>
 </com.conformiq:ConformiqProject>

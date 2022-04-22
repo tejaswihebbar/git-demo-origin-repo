@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.conformiq:RequirementRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.conformiq="http://www.conformiq.com/EMF/2/Requirements" lastUpdate="1650545869874">
-  <requirementGraphRoots state="UNCHANGED" identifier="com.conformiq.requirements.excel-Requirements Input.xls-root" source="//@requirementProviders.0">
-    <name value="Excel Requirements (Requirements Input.xls)"/>
+<com.conformiq:RequirementRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.conformiq="http://www.conformiq.com/EMF/2/Requirements" lastUpdate="1650547396806">
+  <requirementGraphRoots state="UNCHANGED" identifier="com.conformiq.requirements.excel-Requirements Input.csv-root" source="//@requirementProviders.0">
+    <name value="Excel Requirements (Requirements Input.csv)"/>
     <priority/>
-    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-Requirements Input.xls-req-1" source="//@requirementProviders.0" externalIdentifier="1">
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-Requirements Input.csv-req-1" source="//@requirementProviders.0" externalIdentifier="1">
       <name value="Error - Login"/>
       <priority value="1"/>
     </subrequirements>
-    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-Requirements Input.xls-req-2" source="//@requirementProviders.0" externalIdentifier="2">
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-Requirements Input.csv-req-2" source="//@requirementProviders.0" externalIdentifier="2">
       <name value="Login Success"/>
       <priority value="3"/>
     </subrequirements>
-    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-Requirements Input.xls-req-3" source="//@requirementProviders.0" externalIdentifier="3">
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-Requirements Input.csv-req-3" source="//@requirementProviders.0" externalIdentifier="3">
       <name value="New"/>
       <priority value="2"/>
     </subrequirements>
   </requirementGraphRoots>
-  <requirementProviders identifier="com.conformiq.requirements.excel" name="Excel Requirements (Requirements Input.xls)">
-    <properties key="fileName" value="Requirements Input.xls"/>
+  <requirementProviders identifier="com.conformiq.requirements.excel" name="Excel Requirements (Requirements Input.csv)">
+    <properties key="fileName" value="Requirements Input.csv"/>
   </requirementProviders>
 </com.conformiq:RequirementRepository>
