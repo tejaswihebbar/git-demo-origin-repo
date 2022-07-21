@@ -40,11 +40,12 @@
             <element xmi:type="com.conformiq.creator.structure.dsl:Hyperlink" href="Structure%20Diagram.sl#qml742a5310240446b5bf851e601cf6ed9d"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JoJcE4OoEeWaMp3LzUsxUQ" x="193" y="79"/>
           </children>
-          <children xmi:type="notation:Shape" xmi:id="_mgERMAj-Ee2pG7Ck1-i68Q" type="3010" fontName="Segoe UI">
-            <children xmi:type="notation:DecorationNode" xmi:id="_mgERMgj-Ee2pG7Ck1-i68Q" type="5011"/>
-            <children xmi:type="notation:DecorationNode" xmi:id="_mgERMwj-Ee2pG7Ck1-i68Q" type="5058"/>
-            <element xmi:type="com.conformiq.creator.structure.dsl:TextBox" href="Structure%20Diagram.sl#qml90f25fcae3024d89974a6cf8cc875cbe"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mgERMQj-Ee2pG7Ck1-i68Q" x="183" y="134"/>
+          <children xmi:type="notation:Node" xmi:id="_lKM1AAj_Ee2pG7Ck1-i68Q" type="3009">
+            <children xmi:type="notation:DecorationNode" xmi:id="_lKM1BAj_Ee2pG7Ck1-i68Q" type="5010"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_lKM1AQj_Ee2pG7Ck1-i68Q"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_lKM1Agj_Ee2pG7Ck1-i68Q"/>
+            <element xmi:type="com.conformiq.creator.structure.dsl:Hyperlink" href="Structure%20Diagram.sl#qml39cb4a6081d246e7b2f90910ee4f7432"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lKM1Awj_Ee2pG7Ck1-i68Q" x="230" y="34"/>
           </children>
         </children>
         <styles xmi:type="notation:DescriptionStyle" xmi:id="_xae-MYOnEeWaMp3LzUsxUQ"/>
