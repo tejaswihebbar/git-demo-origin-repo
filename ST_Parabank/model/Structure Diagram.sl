@@ -31,8 +31,7 @@ creator.gui.screen qml3f30189df46d42ca930c9eef5c157c66 "Parabank Welcome"
 			deleted;
 		creator.gui.textbox qml90f25fcae3024d89974a6cf8cc875cbe "Captcha"
 			type = String
-			status = dontcare
-			deleted;
+			status = dontcare;
 	}
 	creator.gui.hyperlink qmlca11c27f6f3e4ce6a0eaea96a8ee7100 "Admin Page"
 		status = dontcare;
