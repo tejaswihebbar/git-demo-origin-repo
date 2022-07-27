@@ -18,25 +18,9 @@ creator.gui.screen qml3f30189df46d42ca930c9eef5c157c66 "Parabank Welcome"
 		creator.gui.hyperlink qml742a5310240446b5bf851e601cf6ed9d
 		"Forgot login info?"
 			status = dontcare;
-		creator.gui.hyperlink qml5ac6da4bc4984e4c8d548281a9a8617f "Help"
-			status = dontcare
-			deleted;
-		creator.gui.textbox qmlbfde446d48a947ca8c44e7001cf21bb3 "Field 2"
+		creator.gui.textbox qmld092b2d5f563425197e5e5826ecd463c "Captcha"
 			type = String
-			status = dontcare
-			deleted;
-		creator.gui.textbox qmla9f64fd27fcf42d793564b5510405f70 "captcha"
-			type = String
-			status = dontcare
-			deleted;
-		creator.gui.textbox qml90f25fcae3024d89974a6cf8cc875cbe "Captcha"
-			type = String
-			status = dontcare
-			deleted;
-		creator.gui.textbox qml79e50ec3a2f34f7988bac51599153191 "Captcha"
-			type = String
-			status = dontcare
-			deleted;
+			status = dontcare;
 	}
 	creator.gui.hyperlink qmlca11c27f6f3e4ce6a0eaea96a8ee7100 "Admin Page"
 		status = dontcare;
@@ -687,8 +671,4 @@ creator.customaction qml0327dcab1d8043e6b75b597c307b0284 "Transaction Error "
 {
 	creator.primitivefield qmlc3734b451e6142ceabd6aedbcd655080 "Error"
 		type = String;
-}
-creator.gui.screen qml3e07e7accd3b40109b3a82fcb3aa4dbf "Temp screen"
-	deleted
-{
 }
