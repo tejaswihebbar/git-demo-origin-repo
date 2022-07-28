@@ -46,6 +46,13 @@
             <element xmi:type="com.conformiq.creator.structure.dsl:TextBox" href="Structure%20Diagram.sl#qmld092b2d5f563425197e5e5826ecd463c"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kalogQ2KEe2h2d3mr0nh5g" x="187" y="139"/>
           </children>
+          <children xmi:type="notation:Node" xmi:id="_bNiYIA5QEe2wcdEH7KtjOg" type="3009">
+            <children xmi:type="notation:DecorationNode" xmi:id="_bNiYJA5QEe2wcdEH7KtjOg" type="5010"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_bNiYIQ5QEe2wcdEH7KtjOg"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_bNiYIg5QEe2wcdEH7KtjOg"/>
+            <element xmi:type="com.conformiq.creator.structure.dsl:Hyperlink" href="Structure%20Diagram.sl#qml87aecc9c04104b91b6892bc116d465e7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bNiYIw5QEe2wcdEH7KtjOg" x="235" y="42"/>
+          </children>
         </children>
         <styles xmi:type="notation:DescriptionStyle" xmi:id="_xae-MYOnEeWaMp3LzUsxUQ"/>
         <styles xmi:type="notation:FontStyle" xmi:id="_xae-MoOnEeWaMp3LzUsxUQ" fontName="Segoe UI"/>
