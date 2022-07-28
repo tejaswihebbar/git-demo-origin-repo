@@ -28,6 +28,8 @@ creator.gui.screen qml3f30189df46d42ca930c9eef5c157c66 "Parabank Welcome"
 		creator.gui.textbox qmld8f8ef31dac54b1aae7e599efcb55b6a "Captcha"
 			type = String
 			status = dontcare;
+		creator.gui.hyperlink qml57c78be9d8ec4ca996741220c46f18c2 "Help"
+			status = dontcare;
 	}
 	creator.gui.hyperlink qmlca11c27f6f3e4ce6a0eaea96a8ee7100 "Admin Page"
 		status = dontcare;
