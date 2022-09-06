@@ -3869,7 +3869,7 @@
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_YfKToIOoEeWaMp3LzUsxUQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_YfKToYOoEeWaMp3LzUsxUQ" fontName="Segoe UI"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YfKTooOoEeWaMp3LzUsxUQ" x="812" y="170" width="230"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YfKTooOoEeWaMp3LzUsxUQ" x="888" y="168" width="230"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_NflyQIOpEeWaMp3LzUsxUQ" type="2001" element="_NfcBQIOpEeWaMp3LzUsxUQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_NfnAYIOpEeWaMp3LzUsxUQ" type="5001"/>
