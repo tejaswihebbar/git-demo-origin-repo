@@ -21,6 +21,8 @@ creator.gui.screen qml3f30189df46d42ca930c9eef5c157c66 "Parabank Welcome"
 		creator.gui.hyperlink qml28319655ac4b48d49aae4cada0885ee1 "Logout"
 			status = dontcare
 			deleted;
+		creator.gui.hyperlink qmlb4f00e56851c4a04a3919ad2139aa516 "Help"
+			status = dontcare;
 	}
 	creator.gui.hyperlink qmlca11c27f6f3e4ce6a0eaea96a8ee7100 "Admin Page"
 		status = dontcare;
