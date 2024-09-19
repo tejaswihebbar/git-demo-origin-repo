@@ -18,17 +18,6 @@ creator.gui.screen qml3f30189df46d42ca930c9eef5c157c66 "Parabank Welcome"
 		creator.gui.hyperlink qml742a5310240446b5bf851e601cf6ed9d
 		"Forgot login info?"
 			status = dontcare;
-		creator.gui.hyperlink qmla3135a64c8da45818e5abe5933eca4ae "Help"
-			status = dontcare
-			deleted;
-		creator.gui.textbox qmlf988c2c6a5fb49748aead867b9cd1aa6 "Captcha"
-			type = String
-			status = dontcare
-			deleted;
-		creator.gui.button qml6e00410d47634c28b7d5e34facc2f35a "Manual"
-			status = dontcare;
-		creator.gui.hyperlink qmlde6f9ec25f724a7d888af0621f34d974 "Help"
-			status = dontcare;
 		creator.gui.hyperlink qml28319655ac4b48d49aae4cada0885ee1 "Logout"
 			status = dontcare;
 	}
