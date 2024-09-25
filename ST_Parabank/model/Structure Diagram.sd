@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>acb123456789
+<?xml version="1.0" encoding="UTF-8"?>
 <notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.conformiq.creator.structure.dsl="http://www.conformiq.com/emf/15/StructureDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_VOebcIOnEeWaMp3LzUsxUQ" type="Dsl" name="Structure%20Diagram.sd" measurementUnit="Pixel">
   <children xmi:type="notation:Node" xmi:id="_hg-u4IOnEeWaMp3LzUsxUQ" type="2003">
     <children xmi:type="notation:DecorationNode" xmi:id="_hhAkEIOnEeWaMp3LzUsxUQ" type="5037"/>
