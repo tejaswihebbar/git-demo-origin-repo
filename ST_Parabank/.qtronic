@@ -14,6 +14,11 @@
         <categoryProperties key="Merge steps with no verification point(s) with following step(s)" value="false"/>
         <categoryProperties key="Merge steps with no action(s) with preceding step(s)" value="false"/>
         <categoryProperties key="Omit information about where a requirement was included" value="true"/>
+        <categoryProperties key="Start steps from along with test body"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Rendering settings">
+        <categoryProperties key="Sort tests by Name" value="false"/>
+        <categoryProperties key="Test Name Prefix"/>
       </scripterPropertyCategories>
       <scripterPropertyCategories name="Mapping">
         <categoryProperties key="Custom mapping source"/>
@@ -22,6 +27,10 @@
         <categoryProperties key="No action" value="No action"/>
         <categoryProperties key="No errors can be observed at the SUT" value="No errors can be observed at the SUT"/>
         <categoryProperties key="External circumstance prefix" value="External circumstance: "/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Impact Analysis">
+        <categoryProperties key="Generate Impact analysis Excel" value="false"/>
+        <categoryProperties key="Sprint" value="Sprint1"/>
       </scripterPropertyCategories>
     </scripterConfigurations>
     <scripterConfigurations jarPath="Conformiq_Designer/SeleniumJavaScripter.jar" pluginName="SeleniumJavaScripter" sequenceNumber="1">
@@ -43,8 +52,6 @@
         <categoryProperties key="Sprint" value="Sprint1"/>
       </scripterPropertyCategories>
     </scripterConfigurations>
-    <coverageSettings key="ad-node._VREccIOnEeWaMp3LzUsxUQ._OrWawIOpEeWaMp3LzUsxUQ" value="BLOCK"/>
-    <coverageSettings key="ad-node._VREccIOnEeWaMp3LzUsxUQ._iXd2MIdxEeWMtdb9-XPc_A" value="BLOCK"/>
   </designConfigurations>
   <designConfigurations name="Reg" id="df070dbbc97031c5bd6f06bad5f9e8eb">
     <scripterConfigurations jarPath="Conformiq_Designer/ExcelScripter.jar" pluginName="ExcelScripter" enabled="true">
@@ -60,6 +67,11 @@
         <categoryProperties key="Merge steps with no verification point(s) with following step(s)" value="false"/>
         <categoryProperties key="Merge steps with no action(s) with preceding step(s)" value="false"/>
         <categoryProperties key="Omit information about where a requirement was included" value="true"/>
+        <categoryProperties key="Start steps from along with test body"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Rendering settings">
+        <categoryProperties key="Sort tests by Name" value="false"/>
+        <categoryProperties key="Test Name Prefix"/>
       </scripterPropertyCategories>
       <scripterPropertyCategories name="Mapping">
         <categoryProperties key="Custom mapping source"/>
@@ -68,6 +80,10 @@
         <categoryProperties key="No action" value="No action"/>
         <categoryProperties key="No errors can be observed at the SUT" value="No errors can be observed at the SUT"/>
         <categoryProperties key="External circumstance prefix" value="External circumstance: "/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Impact Analysis">
+        <categoryProperties key="Generate Impact analysis Excel" value="false"/>
+        <categoryProperties key="Sprint" value="Sprint1"/>
       </scripterPropertyCategories>
     </scripterConfigurations>
     <scripterConfigurations jarPath="Conformiq_Designer/SeleniumJavaScripter.jar" pluginName="SeleniumJavaScripter" sequenceNumber="1">
@@ -89,11 +105,9 @@
         <categoryProperties key="Sprint" value="Sprint1"/>
       </scripterPropertyCategories>
     </scripterConfigurations>
-    <coverageSettings key="ad-node._VREccIOnEeWaMp3LzUsxUQ._OrWawIOpEeWaMp3LzUsxUQ" value="BLOCK"/>
-    <coverageSettings key="ad-node._VREccIOnEeWaMp3LzUsxUQ._sKf1kIRHEeW-udd9UKa5JQ" value="BLOCK"/>
-    <coverageSettings key="decision.!decision.ad _VREccIOnEeWaMp3LzUsxUQ _QillAIOwEeWaMp3LzUsxUQ.decision else" value="BLOCK"/>
   </designConfigurations>
   <projectProperties key="CreatorDataDistribution" value="false"/>
+  <projectProperties key="Enable Multiple DCs" value="false"/>
   <projectProperties key="IntelligentTestCaseNaming" value="true"/>
   <projectProperties key="LookAheadDepth" value="0"/>
   <projectProperties key="MainActivityDiagram" value="model/Activity Diagram.ad"/>
