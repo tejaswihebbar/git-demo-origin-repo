@@ -40,13 +40,6 @@
             <element xmi:type="com.conformiq.creator.structure.dsl:Hyperlink" href="Structure%20Diagram.sl#qml742a5310240446b5bf851e601cf6ed9d"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JoJcE4OoEeWaMp3LzUsxUQ" x="55" y="132"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_XGLaIHadEe-p67ktuNmdeA" type="3009">
-            <children xmi:type="notation:DecorationNode" xmi:id="_XGMBMHadEe-p67ktuNmdeA" type="5010"/>
-            <styles xmi:type="notation:DescriptionStyle" xmi:id="_XGLaIXadEe-p67ktuNmdeA"/>
-            <styles xmi:type="notation:FillStyle" xmi:id="_XGLaInadEe-p67ktuNmdeA"/>
-            <element xmi:type="com.conformiq.creator.structure.dsl:Hyperlink" href="Structure%20Diagram.sl#qmlb4f00e56851c4a04a3919ad2139aa516"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XGLaI3adEe-p67ktuNmdeA" x="120" y="180"/>
-          </children>
         </children>
         <styles xmi:type="notation:DescriptionStyle" xmi:id="_xae-MYOnEeWaMp3LzUsxUQ"/>
         <styles xmi:type="notation:FontStyle" xmi:id="_xae-MoOnEeWaMp3LzUsxUQ" fontName="Segoe UI"/>
@@ -61,13 +54,6 @@
         <styles xmi:type="notation:FillStyle" xmi:id="_g64fUoRDEeW-udd9UKa5JQ"/>
         <element xmi:type="com.conformiq.creator.structure.dsl:Hyperlink" href="Structure%20Diagram.sl#qmlca11c27f6f3e4ce6a0eaea96a8ee7100"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g64fU4RDEeW-udd9UKa5JQ" x="31" y="264"/>
-      </children>
-      <children xmi:type="notation:Node" xmi:id="_7XJR0HadEe-0wKdN_FkkAA" type="3015">
-        <children xmi:type="notation:DecorationNode" xmi:id="_7XKf8HadEe-0wKdN_FkkAA" type="5017"/>
-        <styles xmi:type="notation:DescriptionStyle" xmi:id="_7XJR0XadEe-0wKdN_FkkAA"/>
-        <styles xmi:type="notation:FillStyle" xmi:id="_7XJR0nadEe-0wKdN_FkkAA"/>
-        <element xmi:type="com.conformiq.creator.structure.dsl:Hyperlink" href="Structure%20Diagram.sl#qml3d93512ffefa47f5bfdd7c6c830a7e5f"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7XJR03adEe-0wKdN_FkkAA" x="209" y="264"/>
       </children>
     </children>
     <styles xmi:type="notation:DescriptionStyle" xmi:id="_hg-u4YOnEeWaMp3LzUsxUQ"/>
