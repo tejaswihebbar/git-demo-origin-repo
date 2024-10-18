@@ -682,4 +682,9 @@ creator.gui.screen qmlc203a9b2de9e4899bffe7e6df34af8c3 "User 2 SCr 1"
 {
 	creator.gui.button qml85540cd883a94e2f926de3b512ef071e "User 2 Btn 1"
 		status = dontcare;
+	}
+creator.gui.screen qml087c5acacfcf4ad490ae2bb271afb879 "User1 SCR2"
+{
+	creator.gui.button qml2e3e30068db74c9d8fac005f2f78a590 "User 1 BTn2"
+		status = dontcare;
 }
