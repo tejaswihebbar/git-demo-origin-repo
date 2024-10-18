@@ -1615,6 +1615,25 @@
     <element xmi:type="com.conformiq.creator.structure.dsl:Screen" href="Structure%20Diagram.sl#qml68dd903ebff7432ab2192de32a5b5247"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="__tMyNY09Ee-UyPkz4sQDBw" x="1044" y="234" width="175" height="121"/>
   </children>
+  <children xmi:type="notation:Node" xmi:id="_nwd20I0-Ee-hXZ_N7Q1TBg" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nwed4I0-Ee-hXZ_N7Q1TBg" type="5037"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nwed4Y0-Ee-hXZ_N7Q1TBg" type="7003">
+      <children xmi:type="notation:Node" xmi:id="_ppM6EI0-Ee-hXZ_N7Q1TBg" type="3014">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ppM6FY0-Ee-hXZ_N7Q1TBg" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_ppM6EY0-Ee-hXZ_N7Q1TBg"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_ppM6Eo0-Ee-hXZ_N7Q1TBg" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_ppM6E40-Ee-hXZ_N7Q1TBg"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:Button" href="Structure%20Diagram.sl#qml85540cd883a94e2f926de3b512ef071e"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ppM6FI0-Ee-hXZ_N7Q1TBg" x="24" y="36"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_nwd20Y0-Ee-hXZ_N7Q1TBg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_nwd20o0-Ee-hXZ_N7Q1TBg" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_nwd2040-Ee-hXZ_N7Q1TBg"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_nwd21I0-Ee-hXZ_N7Q1TBg"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:Screen" href="Structure%20Diagram.sl#qmlc203a9b2de9e4899bffe7e6df34af8c3"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nwd21Y0-Ee-hXZ_N7Q1TBg" x="1049" y="404" height="137"/>
+  </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_VOebcYOnEeWaMp3LzUsxUQ"/>
   <element xmi:type="com.conformiq.creator.structure.dsl:Model" href="Structure%20Diagram.sl#/"/>
   <edges xmi:type="notation:Edge" xmi:id="_kUD6QIRGEeW-udd9UKa5JQ" type="4005" source="_ImK24IRGEeW-udd9UKa5JQ" target="_hZ5PMIRGEeW-udd9UKa5JQ">
