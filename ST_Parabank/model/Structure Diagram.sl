@@ -673,3 +673,8 @@ creator.customaction qml0327dcab1d8043e6b75b597c307b0284 "Transaction Error "
 	creator.primitivefield qmlc3734b451e6142ceabd6aedbcd655080 "Error"
 		type = String;
 }
+creator.gui.screen qml68dd903ebff7432ab2192de32a5b5247 "User1 Scr"
+{
+	creator.gui.button qmla0334041e847467393b763bc58e8c7a5 "User1 Btn"
+		status = dontcare;
+}
