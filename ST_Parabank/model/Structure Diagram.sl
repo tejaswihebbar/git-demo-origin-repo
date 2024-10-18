@@ -678,3 +678,8 @@ creator.gui.screen qml68dd903ebff7432ab2192de32a5b5247 "User1 Scr"
 	creator.gui.button qmla0334041e847467393b763bc58e8c7a5 "User1 Btn"
 		status = dontcare;
 }
+creator.gui.screen qml087c5acacfcf4ad490ae2bb271afb879 "User1 SCR2"
+{
+	creator.gui.button qml2e3e30068db74c9d8fac005f2f78a590 "User 1 BTn2"
+		status = dontcare;
+}
