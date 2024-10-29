@@ -18,13 +18,18 @@ creator.gui.screen qml3f30189df46d42ca930c9eef5c157c66 "Parabank Welcome"
 		creator.gui.hyperlink qml742a5310240446b5bf851e601cf6ed9d
 		"Forgot login info?"
 			status = dontcare;
+		creator.gui.hyperlink qml28319655ac4b48d49aae4cada0885ee1 "Logout"
+			status = dontcare
+			deleted;
+		creator.gui.hyperlink qmlb4f00e56851c4a04a3919ad2139aa516 "Help"
+			status = dontcare
+			deleted;
 	}
 	creator.gui.hyperlink qmlca11c27f6f3e4ce6a0eaea96a8ee7100 "Admin Page"
 		status = dontcare;
-	creator.gui.hyperlink qml1e7cd5de49c54ede82992e8885e960e4 "Products"
-		status = dontcare;
-	creator.gui.hyperlink qml2645eb1ae863473cb1315224e0bc8a00 "Help"
-		status = dontcare;
+	creator.gui.hyperlink qml3d93512ffefa47f5bfdd7c6c830a7e5f "Products"
+		status = dontcare
+		deleted;
 }
 creator.customaction qmld9b7f1e8c91244b5a25f1a03606d3450 "enter URL"
 	interfaces = [ qml35ebfa258cab43ffadcecca0f7ddc4a4 ]
@@ -672,24 +677,4 @@ creator.customaction qml0327dcab1d8043e6b75b597c307b0284 "Transaction Error "
 {
 	creator.primitivefield qmlc3734b451e6142ceabd6aedbcd655080 "Error"
 		type = String;
-}
-creator.gui.screen qml68dd903ebff7432ab2192de32a5b5247 "User1 Scr"
-{
-	creator.gui.button qmla0334041e847467393b763bc58e8c7a5 "User1 Btn"
-		status = dontcare;
-}
-creator.gui.screen qmlc203a9b2de9e4899bffe7e6df34af8c3 "User 2 SCr 1"
-{
-	creator.gui.button qml85540cd883a94e2f926de3b512ef071e "User 2 Btn 1"
-		status = dontcare;
-	}
-creator.gui.screen qml087c5acacfcf4ad490ae2bb271afb879 "User1 SCR2"
-{
-	creator.gui.button qml2e3e30068db74c9d8fac005f2f78a590 "User 1 BTn2"
-		status = dontcare;
-}
-creator.gui.screen qml9de300bd04a84c3f8aad3ecc7c50e6aa "User1 Scr 3"
-{
-	creator.gui.button qml608f3cebf2c24b9e8d23fb55c66cffa7 "User 1 Btn 3"
-		status = dontcare;
 }
